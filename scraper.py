@@ -40,4 +40,4 @@ while True:
 
 df = pd.DataFrame(comments)
 df.to_csv(f"{video_id}_comments.csv", index=False)
-print(f"✅ Collected {len(comments)} comments saved to comments.csv")
+print(f" Collected {len(comments)} comments saved to comments.csv")
